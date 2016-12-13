@@ -4,7 +4,7 @@
 
 C#/.NET logging service
 
-This service processes messages that are sent via a NamedPipe to a logging framework such as log4net. It can be used in conjunction with the [NamedPipeTraceListener](https://github.com/dfensgmbh/biz.dfch.CS.Commons/blob/master/src/biz.dfch.CS.Commons/Diagnostics/NamedPipeTraceListener.cs).
+This service processes messages sent via a NamedPipe to a logging framework such as log4net. It can be used in conjunction with the [NamedPipeTraceListener](https://github.com/dfensgmbh/biz.dfch.CS.Commons/blob/master/src/biz.dfch.CS.Commons/Diagnostics/NamedPipeTraceListener.cs).
 
 d-fens GmbH, General-Guisan-Strasse 6, CH-6300 Zug, Switzerland
 
