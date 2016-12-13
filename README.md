@@ -15,4 +15,4 @@ d-fens GmbH, General-Guisan-Strasse 6, CH-6300 Zug, Switzerland
 
 [![TeamCity Logo](https://github.com/dfensgmbh/biz.dfch.CS.Logging.Service/blob/develop/TeamCity.png)](https://www.jetbrains.com/teamcity/)
 
-Built with TeamCity
+Code built with TeamCity
