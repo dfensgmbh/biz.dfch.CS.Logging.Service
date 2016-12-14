@@ -24,8 +24,6 @@ namespace biz.dfch.CS.Logging.Service.Core
 {
     public static class Program
     {
-        internal static bool IsInteractiveStartup;
-
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

@@ -93,7 +93,7 @@ namespace biz.dfch.CS.Logging.Service.Core
 
             ThreadPool.QueueUserWorkItem(ServerProc);
 
-            if (!Program.IsInteractiveStartup)
+            if (!Environment.UserInteractive)
             {
                 this.RequestAdditionalTime(ADDITIONAL_TIME_MS);
             }
@@ -157,7 +157,7 @@ namespace biz.dfch.CS.Logging.Service.Core
 
             server.Dispose();
 
-            if (!Program.IsInteractiveStartup)
+            if (!Environment.UserInteractive)
             {
                 this.RequestAdditionalTime(ADDITIONAL_TIME_MS);
             }
@@ -197,7 +197,7 @@ namespace biz.dfch.CS.Logging.Service.Core
 
             base.OnShutdown();
 
-            if (!Program.IsInteractiveStartup)
+            if (!Environment.UserInteractive)
             {
                 this.RequestAdditionalTime(ADDITIONAL_TIME_MS);
             }
